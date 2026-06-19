@@ -61,7 +61,7 @@
 
 모듈형 나무 발판 에셋을 제작하고 배치했으며, 플레이어가 밟으면 시간 차를 두고 소멸하는 `DisappearLeaves.cs` 기믹을 적용한 구역입니다.
 <br>
-<img src="Images/Gameplay/gameplay_level2.png" width="800" alt="레벨 2 인게임 화면">
+<img src="Images/Gameplay/gameplay_level2.png" width="600" alt="레벨 2 인게임 화면">
 
 ### 3. 레벨 3 (눈 지형) 구간별 구현 화면
 
@@ -69,7 +69,7 @@
 
 | 레벨 3-1: 무빙 플랫폼 탑승 | 레벨 3-2: 적 AI 및 NPC 배치 구역 | 레벨 3-3: 적 AI와의 상호작용 |
 | :---: | :---: | :---: |
-| <img src="Images/Gameplay/gameplay_level3_1.png" width="260" alt="레벨 3-1 무빙플랫폼"> | <img src="Images/Gameplay/gameplay_level3_2.png" width="260" alt="레벨 3-2 적 AI 구역"> | <img src="Images/Gameplay/gameplay_level3_3.png" width="260" alt="레벨 3-3 적 상호작용"> |
+| <img src="Images/Gameplay/gameplay_level3_1.png" width="280" alt="레벨 3-1 무빙플랫폼"> | <img src="Images/Gameplay/gameplay_level3_2.png" width="280" alt="레벨 3-2 적 AI 구역"> | <img src="Images/Gameplay/gameplay_level3_3.png" width="280" alt="레벨 3-3 적 상호작용"> |
 
 ---
 
@@ -126,7 +126,7 @@ Scripts
 
 | 프롤로그 1: 스토리 시작 | 프롤로그 2: 지구의 멸망 | 프롤로그 3: 타이틀 미션 개방 |
 | :---: | :---: | :---: |
-| <img src="Images/UI/prolog_1.png" width="260" alt="프롤로그 1"> | <img src="Images/UI/prolog_2.png" width="260" alt="프롤로그 2"> | <img src="Images/UI/prolog_3.png" width="260" alt="프롤로그 3"> |
+| <img src="Images/UI/prolog_1.png" width="280" alt="프롤로그 1"> | <img src="Images/UI/prolog_2.png" width="280" alt="프롤로그 2"> | <img src="Images/UI/prolog_3.png" width="280" alt="프롤로그 3"> |
 
 
 ### 3. 플레이어 HP
@@ -141,7 +141,7 @@ Scripts
 
 | 게임 오버 및 재시작 (GameOver) | 최종 행성 도달 (Ending) |
 | :---: | :---: |
-| <img src="Images/UI/gameover.png" width="390" alt="게임 오버 화면"> | <img src="Images/UI/ending.png" width="390" alt="게임 클리어 엔딩 화면"> |
+| <img src="Images/UI/gameover.png" width="400" alt="게임 오버 화면"> | <img src="Images/UI/ending.png" width="400" alt="게임 클리어 엔딩 화면"> |
 
 ---
 
@@ -178,8 +178,6 @@ private void OnTriggerEnter(Collider other)
 
 GTen은 Unity로 진행한 첫 팀 프로젝트였습니다.
 
-개인 프로젝트와 달리 다른 팀원과 협업하여 기능을 통합하는 과정을 경험했고 기능 구현뿐 아니라 **역할 분담과 커뮤니케이션의 중요성**을 배울 수 있었습니다.
-
-또한 플레이어, AI, 환경 기믹을 구현하면서 컴포넌트 간 의존성이 증가하는 문제를 경험했고, 이후 프로젝트에서는 이를 개선하기 위해 구조 설계에 더 많은 관심을 가지게 되었습니다.
+개인 프로젝트와 달리 다른 팀원과 협업하여 기능을 통합하는 과정을 경험했고 기능 구현뿐 아니라 **역할 분담과 커뮤니케이션의 중요성**을 배울 수 있었습니다. 또한 플레이어, AI, 환경 기믹을 구현하면서 컴포넌트 간 의존성이 증가하는 문제를 경험했고, 이후 프로젝트에서는 이를 개선하기 위해 구조 설계에 더 많은 관심을 가지게 되었습니다.
 
 이 경험은 다음 프로젝트인 **[Shadow of the Dragon](https://github.com/solbinjung/unity-shadow-of-the-dragon)** 에서 ScriptableObject 기반 데이터 관리와 중앙 매니저 구조를 설계하는 기반이 되었으며, 이후 **[Project WHISPER](https://github.com/solbinjung/ue5-project-whisper)** 에서는 Gameplay Framework를 활용한 시스템 설계로 이어졌습니다.
