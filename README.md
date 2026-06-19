@@ -104,7 +104,7 @@ Scripts
 └── Other Scripts (Team Members)
 ```
 
-> AI, Player, Environment, UI 폴더의 스크립트는 직접 구현하였으며, 그 외 기능은 팀원들이 담당했습니다.
+AI, Player, Environment, UI 폴더의 스크립트는 직접 구현하였으며, 그 외 기능은 팀원들이 담당했습니다.
 
 
 --- 
