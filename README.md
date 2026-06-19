@@ -133,7 +133,7 @@ Scripts
 
 플레이어 캐릭터의 생명 수치를 실시간 동기화하여 시각 피드백을 전달하는 도트 하트 GUI 컴포넌트입니다.
 <br>
-<img src="Images/UI/playerHP.png" width="300" alt="플레이어 HP UI">
+<img src="Images/UI/playerHp.png" width="300" alt="플레이어 HP">
 
 ### 4. 세션 종료 화면
 
